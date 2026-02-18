@@ -1,7 +1,44 @@
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  color: #697077;
+  text-align: center;
+  letter-spacing: 0.8px;
+}
+
+/* - Weights: 200, 400, 600 */
+
+body {
+  padding: 3.87rem 1.87rem 1.87rem 1.87rem;
+}
+
+h1 {
+  font-size: 1.125rem;
+}
+
+.sub-heading {
+  font-weight: 200;
+}
+
+.heading-description {
+  margin: 1.87rem 0;
+  font-weight: 500;
+}
+
+b {
+  font-weight: 600;
+  color: #4c4e61;
+}
+
+p, footer {
+  font-size: 0.75rem;
+}
+
+.cards-container p,
+.cards-container h1 {
+  text-align: left;
 }
 
