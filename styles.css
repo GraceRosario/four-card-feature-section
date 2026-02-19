@@ -13,6 +13,8 @@
 
 body {
   padding: 3.87rem 1.87rem 1.87rem 1.87rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .sub-heading,
@@ -97,6 +99,44 @@ a {
   color: #45d3d3;
 }
 
+.cards-container-mid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.875rem;
+}
+
+@media (min-width: 600px) {
+  .card {
+    max-width: 350px;
+  }
+
+  .cards-container {
+    width: auto;
+    padding: 3rem;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, minmax(auto, 350px));
+    grid-template-rows: repeat(2, 1fr);
+    align-items: center; /* This is the "magic" that replaces your 140px */
+    place-content: center;
+  }
+
+  .supervisor {
+    grid-column: 1;
+    height: auto;
+    grid-row: 1 / span 2;
+  }
+
+  .karma {
+    grid-column: 2;
+  }
+
+  .calculator {
+    grid-column: 3;
+    height: auto;
+    grid-row: 1 / span 2;
+  }
+}
 
 /* 
 - Red: #ea5353
