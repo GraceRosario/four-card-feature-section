@@ -9,8 +9,6 @@
   letter-spacing: 0.8px;
 }
 
-/* - Weights: 200, 400, 600 */
-
 body {
   padding: 3.87rem 1.87rem 1.87rem 1.87rem;
   display: flex;
@@ -142,10 +140,3 @@ a {
     grid-row: 1 / span 2;
   }
 }
-
-/* 
-- Red: #ea5353
-- Cyan: #45d3d3
-- Orange: #fcaf4a
-- Blue: #549ef2
- */
